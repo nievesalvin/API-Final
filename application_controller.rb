@@ -1,5 +1,6 @@
 require 'dotenv/load'
 require 'bundler'
+
 Bundler.require
 
 require_relative 'models/model.rb'
@@ -10,4 +11,7 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
+  get 'weather' do
+    erb :index
+  end
 end
