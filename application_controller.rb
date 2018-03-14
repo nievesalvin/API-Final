@@ -12,6 +12,9 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/result' do
+    puts params
+    @city = params[:city]
+    @country = params[:country]
     erb :result
   end
   
