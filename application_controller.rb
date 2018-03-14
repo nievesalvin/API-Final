@@ -10,8 +10,10 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
-  get 'weather' do
-    erb :index
+  
+  post '/result' do
+    erb :result
   end
+  
 end
 
