@@ -1,8 +1,8 @@
-require"json"
-require"http"
-require"optparse"
-require"pp"
-require"net/http"
+# require "json"
+# require "http"
+# require "optparse"
+# require "pp"
+# require "net/http"
 API_KEY = ENV["bbbbce6a9cd9956ed1161c064ca27897"] 
 #get the weather
 class Weather

@@ -1,5 +1,10 @@
 require 'dotenv/load'
 require 'bundler'
+require 'json'
+# require 'http'
+# require 'optparse'
+require 'pp'
+require 'net/http'
 
 Bundler.require
 
