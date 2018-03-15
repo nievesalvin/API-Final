@@ -10,7 +10,7 @@ class Weather
        @city = :city
    end
     def weather
-    url = "/api/location/search/?query=(#{:city})"
+    url = "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}"
     #from here we need a line of code to input the city that the user would like to check, and replace (query) in the url with the users input
     end
 
