@@ -15,6 +15,7 @@ class ApplicationController < Sinatra::Base
     puts params
     @city = params[:city]
     @country = params[:country]
+    @weather.weather
     erb :result
   end
   
