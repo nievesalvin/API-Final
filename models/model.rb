@@ -16,7 +16,7 @@ class Weather
     uri = URI(url)
     response = Net::HTTP.get(uri)
     weather = JSON.parse(response)
-    #from here we need a line of code to input the city that the user would like to check, and replace (query) in the url with the users input
+    #^documentation to have the API to have reach and get the weather
     end
 
 end
